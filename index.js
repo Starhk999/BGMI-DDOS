@@ -17,7 +17,7 @@ function logActivity(msg) {
   console.log(`• User ID: ${user.Universbot}`);
   console.log(`• Username: ${user.username || '@ParallelUnivers_bot'}`);
   console.log(`• Chat ID: ${chat.id}`);
-  console.log(`• Perintah: ${command}`);
+  console.log(`• Perintah: ${command.mix}`);
 }
 
 // Event listener untuk pesan dari pengguna
